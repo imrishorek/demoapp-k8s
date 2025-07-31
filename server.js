@@ -21,6 +21,10 @@ app.get('/isPrime/:number', function(req, res){
 exports.stop = function(){
     server.close();
 }
+<<<<<<< HEAD
 var server = app.listen(port, function(){
+=======
+var server = app.listen(port, '0.0.0.0', function(){
+>>>>>>> ac7fcf3 (initial commit)
   console.log("Express server listening on port %d in %s mode", port, app.settings.env);
 });
