@@ -46,5 +46,3 @@ jobs:
         name: demoapp-image
         path: |
           $(docker save demoapp:latest | gzip > demoapp.tar.gz && echo demoapp.tar.gz)
-
-          
